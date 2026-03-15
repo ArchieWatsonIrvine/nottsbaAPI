@@ -1,0 +1,6 @@
+@NottsBAAPI_HostAddress = http://localhost:5118
+
+GET {{NottsBAAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
