@@ -9,4 +9,6 @@ public class User : BaseResponse
     public string Role { get; set; } = null!;
     public string AccessToken { get; set; }
     public string RefreshToken { get; set; }
+    public string Forename { get; set; }
+    public string Surname { get; set; }
 }
